@@ -64,11 +64,13 @@
   }
   var LOGO = '<a class="logo" href="/" aria-label="Decaleca — início"><img src="/assets/logo.webp" alt="Decaleca" width="420" height="312"></a>';
 
+  var LOGO_HEADER = '<a class="logo logo--header" href="/" aria-label="Decaleca — início"><img src="/assets/logo-square.png" alt="Decaleca" width="480" height="480"></a>';
+
   var header = document.getElementById("site-header");
   if (header) {
     header.className = "site-header";
     header.innerHTML =
-      '<div class="container header-inner">' + LOGO +
+      '<div class="container header-inner">' + LOGO_HEADER +
       '<nav class="nav" aria-label="Principal">' + navLinks() + "</nav>" +
       '<div class="header-actions">' +
       '<a class="ml-link" data-link="ml" href="/contato">Mercado Livre</a>' +
