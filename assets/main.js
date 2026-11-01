@@ -62,7 +62,7 @@
       return '<a class="' + (cls || "") + '" href="' + n.href + '"' + (current && n.id === page ? ' aria-current="page"' : "") + ">" + n.label + "</a>";
     }).join("");
   }
-  var LOGO = '<a class="logo" href="/" aria-label="Decaleca — início">Decal<span>e</span>ca<i class="logo-dot" aria-hidden="true"></i></a>';
+  var LOGO = '<a class="logo" href="/" aria-label="Decaleca — início"><img src="/assets/logo.webp" alt="Decaleca" width="420" height="312"></a>';
 
   var header = document.getElementById("site-header");
   if (header) {

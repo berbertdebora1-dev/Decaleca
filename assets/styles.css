@@ -15,6 +15,7 @@
   --yellow: #E9B949;
   --terracotta: #C8674A;
   --white: #FFFDF8;
+  --sage: #798C8A;      /* fundo do logo */
 
   --font-display: "Fraunces", Georgia, "Times New Roman", serif;
   --font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -123,9 +124,9 @@ p { margin: 0 0 1em; text-wrap: pretty; }
   border-bottom: 1px solid rgba(43, 38, 32, .08);
 }
 .header-inner { height: var(--header-h); display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-.logo { font-family: var(--font-display); font-size: 1.7rem; font-weight: 600; text-decoration: none; letter-spacing: -.02em; display: inline-flex; align-items: center; gap: 2px; }
-.logo span { color: var(--terracotta); }
-.logo-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--yellow); margin-left: 3px; transform: translateY(-9px); }
+.logo { display: inline-flex; flex: none; text-decoration: none; }
+.logo img { height: 54px; width: auto; border-radius: 10px; }
+@media (min-width: 760px) { .logo img { height: 62px; } }
 .nav { display: none; }
 .nav a { text-decoration: none; font-weight: 500; font-size: .96rem; padding: 6px 2px; border-bottom: 2px solid transparent; }
 .nav a:hover, .nav a[aria-current="page"] { border-color: var(--terracotta); }
@@ -355,7 +356,7 @@ body.menu-open { overflow: hidden; }
 .site-footer a { text-decoration: none; }
 .site-footer a:hover { color: var(--yellow); }
 .footer-grid { display: grid; gap: 36px; }
-.footer-brand .logo { color: var(--ivory); font-size: 2.2rem; }
+.footer-brand .logo img { height: 110px; border-radius: 16px; }
 .footer-brand p { color: #BDB4A4; max-width: 340px; margin-top: 12px; }
 .footer-col h4 { font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--sand); margin: 0 0 14px; font-weight: 600; }
 .footer-col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
