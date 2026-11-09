@@ -23,7 +23,7 @@ com o nome abaixo (JPG, ~1600px no lado maior, comprimido) e ele aparece automat
 
 | Arquivo | Onde | O que mostrar |
 |---|---|---|
-| `home-hero.jpg` | Início, topo | Bebê usando meias Decaleca, bordado visível |
+| `home-hero.webp` | Início, topo | Bebê usando meias Decaleca, bordado visível |
 | `categoria-meias.jpg` | Início e Produtos | Meias bordadas |
 | `categoria-quadros.jpg` | Início e Produtos | Quadros em quarto infantil |
 | `home-ilustracao.jpg` | Início, diferencial | Ilustração original da Ludmita |

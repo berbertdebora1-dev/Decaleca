@@ -367,16 +367,7 @@ body.menu-open { overflow: hidden; }
 /* ---------- detalhes decorativos ---------- */
 .squiggle { display: block; width: 120px; height: 18px; color: var(--terracotta); margin: 8px 0 22px; }
 .center .squiggle { margin-left: auto; margin-right: auto; }
-.sticker {
-  position: absolute; width: 96px; height: 96px; border-radius: 50%;
-  display: grid; place-items: center; text-align: center;
-  background: var(--terracotta); color: var(--ivory);
-  font-family: var(--font-display); font-size: .82rem; line-height: 1.1; padding: 12px;
-  transform: rotate(-12deg); box-shadow: 0 8px 20px rgba(43, 38, 32, .15); z-index: 2;
-}
 .hero-media { position: relative; }
-.hero-media .sticker { top: -14px; left: -6px; }
-@media (min-width: 900px) { .hero-media .sticker { left: -40px; top: 40px; width: 120px; height: 120px; font-size: 1rem; } }
 .marquee { overflow: hidden; border-block: 1.5px solid var(--ink); padding: 14px 0; background: var(--ivory); }
 .marquee-track { display: flex; gap: 40px; width: max-content; font-family: var(--font-display); font-size: 1.4rem; font-style: italic; white-space: nowrap; animation: scroll 38s linear infinite; }
 .marquee-track span::after { content: "✦"; margin-left: 40px; color: var(--terracotta); font-style: normal; }
